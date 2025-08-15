@@ -25,13 +25,13 @@ I’m a passionate Senior Software Engineer with a strong foundation in **JavaSc
 ![Trophies](https://github-profile-trophy.vercel.app/?username=ChoudharyNavit22&theme=tokyonight&no-frame=true&margin-w=10&row=1)
 
 ---
-
+<!--
 ## 📅 Weekly GitHub Activity
 *(Includes private commits)*  
 ![GitHub Metrics](./github-metrics.svg)
 
 ---
-
+-->
 ## 🚀 Featured Projects
 
 - **[User Onboarding ES6](https://github.com/ChoudharyNavit22/user_onboarding_es6)**  
