@@ -1,9 +1,13 @@
-name: GitHub Metrics
+name: Metrics
 
 on:
   schedule:
-    - cron: "0 0 * * 0"  # Every Sunday at midnight UTC
-  workflow_dispatch:     # Allow manual trigger
+    # Every Monday 00:00 UTC
+    - cron: "0 0 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write  # needed so the action can commit the SVG
 
 jobs:
   github-metrics:
@@ -11,34 +15,16 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          # Your GitHub username
-          token: ${{ secrets.METRICS_TOKEN }}
-
-          # Base config
+          token: ${{ secrets.METRICS_TOKEN }}   # classic PAT with repo scope (or GITHUB_TOKEN)
           user: ChoudharyNavit22
           template: classic
-          base: header, activity, community, repositories
+          base: header, activity, community, repositories, metadata
           config_timezone: Asia/Kolkata
 
-          # 🏆 Achievements
-          plugin_achievements: yes
-          plugin_achievements_threshold: C
-          plugin_achievements_display: detailed
+          # --- Achievements disabled due to Projects Classic deprecation ---
+          plugin_achievements: no
 
-          # 📊 Language stats
-          plugin_languages: yes
-          plugin_languages_limit: 6
-          plugin_languages_sections: most-used
-          plugin_languages_analysis_timeout: 15
-          plugin_languages_categories: programming
-
-          # 📅 Week activity stats
+          # --- Extras ---
           plugin_isocalendar: yes
-          plugin_isocalendar_duration: half-year
-
-          # 📈 Commit activity
-          plugin_lines: yes
-          plugin_lines_skipped: 10
-
-          # Ordering
-          config_order: base, achievements, languages, isocalendar, lines
+          plugin_languages: yes
+          plugin_languages_limit: 8
