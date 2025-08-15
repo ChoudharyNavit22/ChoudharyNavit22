@@ -45,10 +45,10 @@ I’m a passionate Senior Software Engineer with a strong foundation in **JavaSc
 ## 🧰 Skills & Tech Stack
 
 **Languages:**  
-JavaScript, TypeScript, HTML, CSS, SQL, NoSQL  
+JavaScript, TypeScript, HTML, CSS, SQL, NoSQL, Python  
 
 **Backend:**  
-Node.js, Express.js, MongoDB, PostgreSQL  
+NestJs, Node.js, Express.js, MongoDB, PostgreSQL  
 
 **Frontend:**  
 React.js, Next.js, Redux  
@@ -57,7 +57,7 @@ React.js, Next.js, Redux
 Mocha, Chai  
 
 **Other Tools:**  
-Docker, Git, JWT, REST APIs
+Docker, Git, JWT, REST APIs, ORM's
 
 ---
 
