@@ -12,23 +12,23 @@ I’m a passionate Senior Software Engineer with a strong foundation in **JavaSc
 
 ## 📊 GitHub Stats & Activity
 
-![Navit's GitHub Stats](https://github-readme-stats.vercel.app/api?username=ChoudharyNavit22&show_icons=true&theme=tokyonight)
+![Navit's GitHub Stats](https://github-readme-stats.vercel.app/api?username=ChoudharyNavit22&show_icons=true&theme=tokyonight&count_private=true)
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ChoudharyNavit22&layout=compact&theme=tokyonight)
 
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=ChoudharyNavit22&theme=tokyonight)
-
----
-
-## 📅 Weekly GitHub Activity
-
-![GitHub Metrics](https://raw.githubusercontent.com/ChoudharyNavit22/ChoudharyNavit22/main/github-metrics.svg)
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=ChoudharyNavit22&theme=tokyonight&count_private=true)
 
 ---
 
 ## 🏆 Achievements & Medals
 
 ![Trophies](https://github-profile-trophy.vercel.app/?username=ChoudharyNavit22&theme=tokyonight&no-frame=true&margin-w=10&row=1)
+
+---
+
+## 📅 Weekly GitHub Activity
+*(Includes private commits)*  
+![GitHub Metrics](./github-metrics.svg)
 
 ---
 
@@ -80,5 +80,3 @@ Docker, Git, JWT, REST APIs, ORM's
     <img src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=github&logoColor=white" />
   </a>
 </p>
-
----
