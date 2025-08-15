@@ -62,8 +62,18 @@ Docker, Git, JWT, REST APIs
 ---
 
 ## 📬 Let's Connect
-- **LinkedIn:** [Your LinkedIn URL]
-- **Email:** your.email@example.com
-- **GitHub:** [github.com/ChoudharyNavit22](https://github.com/ChoudharyNavit22)
+
+<p align="left">
+  <a href="https://www.linkedin.com/in/navitchoudhary/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="mailto:navitchoudhary22@gmail.com" target="_blank">
+    <img src="https://img.shields.io/badge/Email-%23D14836.svg?&style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+  <a href="https://github.com/ChoudharyNavit22" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+</p>
+
 
 ---
