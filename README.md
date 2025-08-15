@@ -12,17 +12,17 @@ I’m a passionate Senior Software Engineer with a strong foundation in **JavaSc
 
 ## 📊 GitHub Stats & Activity
 
-![Navit's GitHub Stats](https://github-readme-stats.vercel.app/api?username=ChoudharyNavit22&show_icons=true&theme=radical)
+![Navit's GitHub Stats](https://github-readme-stats.vercel.app/api?username=ChoudharyNavit22&show_icons=true&theme=tokyonight)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ChoudharyNavit22&layout=compact&theme=radical)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ChoudharyNavit22&layout=compact&theme=tokyonight)
 
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=ChoudharyNavit22&theme=radical)
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=ChoudharyNavit22&theme=tokyonight)
 
 ---
 
 ## 🏆 Achievements & Medals
 
-![Trophies](https://github-profile-trophy.vercel.app/?username=ChoudharyNavit22&theme=radical&no-frame=true&margin-w=10&row=1)
+![Trophies](https://github-profile-trophy.vercel.app/?username=ChoudharyNavit22&theme=tokyonight&no-frame=true&margin-w=10&row=1)
 
 ---
 
@@ -74,6 +74,5 @@ Docker, Git, JWT, REST APIs, ORM's
     <img src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=github&logoColor=white" />
   </a>
 </p>
-
 
 ---
