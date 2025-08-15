@@ -1,50 +1,44 @@
-name: Generate GitHub Metrics
+name: GitHub Metrics
 
 on:
   schedule:
-    - cron: "30 18 * * *" # Runs at 12:00 AM IST
-  workflow_dispatch:
+    - cron: "0 0 * * 0"  # Every Sunday at midnight UTC
+  workflow_dispatch:     # Allow manual trigger
 
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
     steps:
-      - name: Generate metrics
-        uses: lowlighter/metrics@latest
+      - uses: lowlighter/metrics@latest
         with:
+          # Your GitHub username
           token: ${{ secrets.METRICS_TOKEN }}
-          filename: github-metrics.svg
 
-          # Basic sections
-          base: header, activity, community, repositories, metadata
+          # Base config
+          user: ChoudharyNavit22
+          template: classic
+          base: header, activity, community, repositories
           config_timezone: Asia/Kolkata
 
-          # Weekly activity calendar
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year
+          # 🏆 Achievements
+          plugin_achievements: yes
+          plugin_achievements_threshold: C
+          plugin_achievements_display: detailed
 
-          # Language stats
+          # 📊 Language stats
           plugin_languages: yes
-          plugin_languages_ignored: html, css
-          plugin_languages_details: bytes-size, percentage
-          plugin_languages_limit: 8
+          plugin_languages_limit: 6
           plugin_languages_sections: most-used
-          plugin_languages_threshold: 2%
+          plugin_languages_analysis_timeout: 15
+          plugin_languages_categories: programming
 
-          # Additional stats
-          plugin_lines: yes # total lines of code added/removed
-          plugin_followup: yes # issues and PR follow-up stats
+          # 📅 Week activity stats
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: half-year
 
-          # Featured repo
-          plugin_repositories: yes
-          plugin_repositories_featured: ChoudharyNavit22/user_onboarding_es6
+          # 📈 Commit activity
+          plugin_lines: yes
+          plugin_lines_skipped: 10
 
-          # Compact Badges (replacement for Achievements)
-          plugin_introduction: yes
-          plugin_introduction_title: "About Me"
-          plugin_introduction_message: "Passionate full-stack developer building scalable and secure applications."
-
-          plugin_topics: yes
-          plugin_topics_sort: stars
-          plugin_topics_mode: icons
-          plugin_topics_limit: 12
+          # Ordering
+          config_order: base, achievements, languages, isocalendar, lines
