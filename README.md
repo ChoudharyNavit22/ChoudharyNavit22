@@ -20,6 +20,12 @@ I’m a passionate Senior Software Engineer with a strong foundation in **JavaSc
 
 ---
 
+## 📅 Weekly GitHub Activity
+
+![GitHub Metrics](https://raw.githubusercontent.com/ChoudharyNavit22/ChoudharyNavit22/main/github-metrics.svg)
+
+---
+
 ## 🏆 Achievements & Medals
 
 ![Trophies](https://github-profile-trophy.vercel.app/?username=ChoudharyNavit22&theme=tokyonight&no-frame=true&margin-w=10&row=1)
