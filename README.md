@@ -19,12 +19,13 @@ I’m a passionate Senior Software Engineer with a strong foundation in **JavaSc
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=ChoudharyNavit22&theme=tokyonight&count_private=true)
 
 ---
-
+<!--
 ## 🏆 Achievements & Medals
 
 ![Trophies](https://github-profile-trophy.vercel.app/?username=ChoudharyNavit22&theme=tokyonight&no-frame=true&margin-w=10&row=1)
 
 ---
+-->
 
 ## 📅 Weekly GitHub Activity
 *(Includes private commits)*  
